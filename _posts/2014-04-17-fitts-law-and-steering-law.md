@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Fitts' law and steering law"
+title:  "Reading: Beyond Fitts' law"
 date:   2014-04-17 23:10:10
 categories: HCI
 ---
 
-This is a post by me.
+The problem: Fitts' law is good, but only fit for 
