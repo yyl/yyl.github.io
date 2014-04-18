@@ -1,4 +1,4 @@
 yyl.github.io
 =============
 
-A blog.
+A stupid blog.
