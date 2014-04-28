@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Central limit theorem in experimental study"
-date:   2014-04-25 16:12:32
+date:   2014-04-28 16:12:32
 categories: Statistics
 ---
 
@@ -63,4 +63,10 @@ One applicable rule for the sample size is, if the sample data mostly follows a 
 
 ## Reference
 
-[1] Yates, R., & Goodman, D. (2004). Probability and stochastic processes. John Wiley & Sons, Inc. Experimental Study of Comprehension on the World Wide Web, Information Processing and Management, 36, 607-621.
+[1] Yates, R., and Goodman, D. (2004). Probability and Stochastic Processes: A Friendly Introduction for Electrical and Computer Engineers, 2nd Edition
+
+[2] [Wiki of CLT](http://en.wikipedia.org/wiki/Central_limit_theorem)
+
+[3] [A lecture note on CLT](http://www.utdallas.edu/~ammann/stat3355/node24.html)
+
+[4] [Another lecture note on CLT](http://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/BS704_Probability/BS704_Probability11.html)
