@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Anova revisited"
-date:   2014-04-25 23:10:10
+title:  "One-way ANOVA"
+date:   2014-04-25 13:18:10
 categories: HCI
 ---
 
@@ -111,3 +111,7 @@ So basically, `F` is the ratio of variances explained by the model and by unsyst
 ANOVA in general is a pretty robust, in that it is still fairly accurate even if data violates normality or homogeneity of variance. However, this is under the condition that group sizes are equal. If not, the result should not be trusted without any other aid. In addition, the assumption of independence should be met in any case.
 
 In the end, ANOVA is an omnibus test. It only tell you if theres any difference among groups, insead of how groups are different. If you find difference for your groups using ANOVA, you have to conduct follow-up post-hoc tests to discover how exactly the difference is in your groups.
+
+### Reference
+
+[1] A. Field, J. Miles, and Z. Field, Discovering Statistics Using R. SAGE Publications Ltd, 2012.
