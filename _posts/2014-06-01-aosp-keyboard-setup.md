@@ -25,6 +25,6 @@ Now theres no errors in the code which means we are ready to build. However once
     FATAL EXCEPTION: InitializeBinaryDictionary
     android.content.res.Resources$NotFoundException: File res/raw/main_en.dict from drawable resource ID #0x7f070003
 
-Seems to be some problems with the resource files. I found one temporary solution [here](http://stackoverflow.com/questions/19373833/android-latinime-build): changing the extension of the mentioned dict file from `.dict` to `.jet`. It did work but it did not provide much explanation for the error. I will keep an eye on that.
+Seems to be some problems with the resource files. I found one temporary solution [here](http://stackoverflow.com/questions/19373833/android-latinime-build): changing the extension of the mentioned dict file from `.dict` to `.jet`. It did work but it did not provide much explanation for the error. I will keep an eye on that. Note you have to convert each dictionary you want to use. I only use English so I changed only `main_en.dict`.
 
 After such error correcting, I was able to build and run my own AOSP keyboard on my phone. Like I said some of the solutions I provided here are just quick fix without digging into the cause of the problem. But it should be enough to get you started.

@@ -27,7 +27,7 @@ The downloaded folder, LatinIME, has a structure like this:
 
 The source code of the keyboard app locates at `java/` folder. If you are using Eclipse IDE to code Android like I do, you could open up Eclipse and choose "import Android project from existing code", and then choose this folder. Eclipse will automatically load them into a proper Android project.
 
-Now you probably will see some errors in the imported project immediately. Please refer to my previous blog about how to solve some common issues to get rid of those errors.
+Now you probably will see some errors in the imported project immediately. Please refer to [my previous blog](http://yyl.github.io/android/2014/06/01/aosp-keyboard-setup.html) about how to solve some common issues to get rid of those errors.
 
 ### Get native library
 
@@ -60,6 +60,8 @@ In addition, since native codes are linked to the project through jni, you have 
 After change, you have to also rebuild the native library again. If you build and run the project without changing the native library file, you will probably meet `UnsatifiedLinkError`.
 
 ### Miscs and conclusion
+
+Up to this point, you should be able to install the keyboard application. Note it only supports relatively newer versions of Android. I have tested oldest to 4.2.2.
 
 Sometimes I meet weird problem of installing the app. The IDE says `INSTALL_FAILED_UID_CHANGED`. If this comes up, remember to uninstall the keyboard app first (also clean the data before uninstall), and then reboot. This will usually do the trick.
 
