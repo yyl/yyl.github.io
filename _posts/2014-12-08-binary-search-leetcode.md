@@ -64,6 +64,21 @@ Instead of searching the exact value of `target`, we search for `target-0.5` and
 
 Basically, we need to compare median element now with `target-0.5` and `target+0.5`, respectively. Also, we need to return proper index every time of the search.
 
+7.[Search a 2D Matrix](https://oj.leetcode.com/problems/search-a-2d-matrix/)
+
+This problem asks to search the target value in 2D matrix instead of 1D array. Here we could achieve `O(logn)` where `n` is the dimension of the matrix by first search the target value in the first element of all rows, and then search it again within the chosen row.
+
+8.[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)
+
+To solve this problem, one needs to do the binary search on two arrays at the same time. The intuition is when we compare the medians of two arrays, we could ditch half of each array based on which median is larger. This algorithm gives us a `O(log(n+m))` for two arrays with `n` and `m` elements, respectively.
+
+In the search, when both subarrays have at most two elements (this is also the condition to stop the search), one has to make two pointers and traverse all four elements to decide which one is the median of two arrays.
+
+9.[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)
+
+Divide 2 integers without any multiplication, division or mod operators. 
+
+I am gonna go back to this, but the intuition is to keep a accumulated value, which initially equals to divisor, and double the value (`accu += accu`) every time, so that to achieve \\(logn\\) time complexity. In this problem, `n = dividend/divisor`.
 
 ### Reference
 
