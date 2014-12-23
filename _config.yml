@@ -1,4 +1,5 @@
 name: Bytes to reality
+encoding: utf-8
 markdown: redcarpet
 pygments: true
 name: Bytes to reality
