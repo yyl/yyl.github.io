@@ -2,13 +2,23 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date_to_string }} </br><span class="label label-success">{{ page.categories }}</span></p>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_sharing_toolbox"></div>
 
 <div class="post">
 {{ content }}
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<nav>
+  <ul class="pager">
+	{% if page.previous %}
+	<li class="previous"><a href="{{ page.previous.url }}">&larr; Older</a></li>
+	{% endif %}
+	{% if page.next %}
+	<li class="next"><a href="{{ page.next.url }}">Newer &rarr;</a></li>
+	{% endif %}
+  </ul>
+</nav>
 </div>
 
     <div id="disqus_thread"></div>
