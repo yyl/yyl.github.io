@@ -32,4 +32,20 @@ appended_df2 = df.append(pd.DataFrame(new_data), ignore_index=True)
 
 Note `append` returns the new appended dataframe, therefore one has to assign it to a new variable.
 
-_TBD_
+### 2. rename column name of a dataframe
+
+This is pretty straightfoward.
+
+{% highlight python %}
+df=df.rename(columns = {'old_name':'new_name'})
+{% endhighlight %}
+
+### 3. save figure
+
+To save the computed figure to local disk.
+
+{% highlight python %}
+fig = ax.get_figure()
+...
+fig.savefig("path/to/fig.pdf")
+{% endhighlight %}
