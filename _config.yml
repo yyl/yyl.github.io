@@ -2,8 +2,15 @@ github: [metadata]
 encoding: utf-8
 markdown: redcarpet
 highlighter: true
-name: Yulong Yang
 title: Yulong Yang
-description: Yulong's personal site
+email: yyl.dev@gmail.com
+description: Yulong's personal siteeee
 url: https://yyl.github.io
-theme: jekyll-theme-modernist
+theme: minima
+disqus:
+  shortname: bytestoreality
+show_excerpts: false
+minima:
+  social_links:
+    twitter: jekyllrb
+    github: jekyll
