@@ -1,8 +1,9 @@
-name: Bytes to reality
+github: [metadata]
 encoding: utf-8
 markdown: redcarpet
-pygments: true
-name: Bytes to reality
-description: Stupid blog.
+highlighter: true
+name: Yulong Yang
+title: Yulong Yang
+description: Yulong's personal site
 url: https://yyl.github.io
-theme: jekyll-theme-modernist
+theme: modernist
