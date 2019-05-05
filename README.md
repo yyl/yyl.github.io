@@ -1,4 +1,4 @@
-yyl.github.io
+yulong.io
 =============
 
-A stupid blog.
+Personal site
