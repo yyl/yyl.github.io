@@ -3,8 +3,7 @@ encoding: utf-8
 markdown: redcarpet
 highlighter: true
 title: Yulong Yang
-email: yyl.dev@gmail.com
-description: Yulong's personal siteeee
+description: A personal site
 url: https://yyl.github.io
 theme: minima
 disqus:
@@ -12,5 +11,4 @@ disqus:
 show_excerpts: false
 minima:
   social_links:
-    twitter: jekyllrb
-    github: jekyll
+    github: yyl
