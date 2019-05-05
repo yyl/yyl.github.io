@@ -1,4 +1,4 @@
 Personal site
 =============
 
-github pages + minima
+github pages + jekyll
