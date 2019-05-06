@@ -4,11 +4,13 @@ markdown: redcarpet
 highlighter: true
 title: Yulong Yang
 description: A personal site
-url: https://yyl.github.io
+url: https://yulong.io
 theme: minima
-disqus:
-  shortname: bytestoreality
+# disqus:
+  # shortname: bytestoreality
 show_excerpts: false
 minima:
   social_links:
     github: yyl
+    linkedin: yulongyang
+    rss: rss
