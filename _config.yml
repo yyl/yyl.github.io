@@ -1,6 +1,5 @@
 github: [metadata]
 encoding: utf-8
-markdown: redcarpet
 highlighter: rouge
 title: Yulong Yang
 description: A personal site
