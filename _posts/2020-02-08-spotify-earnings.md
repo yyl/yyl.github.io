@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spotify earnings"
+title:  "Spotify 2019 Q4 earnings"
 date:   2020-02-08 15:10:00
 categories: Investment
 ---
@@ -31,16 +31,18 @@ categories: Investment
 - https://forum.stratechery.com/t/spotifys-podcast-aggregation-play/21471/3
 	- podcast is basically RSS of MP3 files, one can't track number of downloads, or how far people listen to the audio, etc
 	- it is also the last open standard that industry is trying to convert into walled garden for profit
-		- __how about traditional RSS? doesn't seem to be monetize enough__
+		- _how about traditional RSS? doesn't seem to be monetize enough_
 	- podcast is like TV, I know you saw the same ad if we listen to the same audio because podcast host manage the ad and everybody listens to the same ad
 	- current podcast ads are still brand/marketing ads: "people who are like X enjoy consuming Y", which requires some common grounds among consumers that everyone knows if I consume Y then we are like X; this doesn't exist in targeted ads (e.g. FB or Google)
-		- __are TV ads still that broad, i.e. people would see the same ad if they watch the same program?__
-	- __what is the benefit for podcast listeners? maybe spotify can drive new content that attracts listeners__
+		- _are TV ads still that broad, i.e. people would see the same ad if they watch the same program?_
+	- _what is the benefit for podcast listeners? maybe spotify can drive new content that attracts listeners_
 		- besides this, spotify can maybe provide premium plan that remove ads for listeners
+- https://forum.stratechery.com/t/spotify-and-podcasts-follow-up-apple-and-podcasts-luminary-and-himalaya/21752/9
+	- podcast probably doesn't need data as granular as what FB gets to monetize thru ads, because podcast subscription usually already tells a lot about listeners	
 
 A question: How is copyrights done in international countries? And is there any localization in terms of music available in Spotify?
 
-The difference between Google's play on web and Spotify's on podcast is, Google did provide a much better and easier user experience to consume web (information), but Spotify hasn't (yet) brought such life-changing user experience to podcast world yet. 
+The difference between Google's play on web and Spotify's on podcast is, Google did provide a much better and easier user experience to consume web (information), but Spotify hasn't (yet) brought such life-changing user experience to podcast world. 
 
 The difference between Netflix and Spotify is also similar. Netflix provides a much better way to consume videos and shows, comparing with traditional TV.
 
