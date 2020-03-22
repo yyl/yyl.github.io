@@ -16,3 +16,4 @@ minima:
     stackoverflow: '723511'
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
